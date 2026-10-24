@@ -65,7 +65,7 @@ export const QUADS = {
 export const ENT = [
   { n:"DSA SF", x:.85, y:.78, d:"Socialists", l:true },
   { n:"Tenants Union", x:.75, y:.6, d:"Tenant organizers", l:true },
-  { n:"Mayor Lurie", x:-.68, y:.55, d:"Mayor, Levi\u2019s heir" },
+  { n:"Mayor Lurie", x:-.4, y:-.88, d:"Mayor, Levi\u2019s heir" },
   { n:"SF Democrats", x:.35, y:-.6, d:"Party" },
   { n:"Chronicle ed. board", x:-.05, y:-.25, d:"Newspaper" },
   { n:"Scott Wiener", x:-.45, y:-.35, d:"State senator" },
