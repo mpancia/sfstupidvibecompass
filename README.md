@@ -4,6 +4,7 @@ A parody of a vibe-coded San Francisco political compass. Static site, no build 
 
 - `data.js`: questions, quadrants, chart placements, fake propositions
 - `app.js`: quiz flow, scoring, SVG compass, share link, PNG export
+- `shader.js`: WebGL background, no dependencies
 - `styles.css`, `index.html`: layout
 
 Results are encoded in the URL hash (`#r=...`), so shared links work without a server.

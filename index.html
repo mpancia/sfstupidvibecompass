@@ -25,6 +25,7 @@
 </head>
 <body data-screen="intro">
 <div id="glow" aria-hidden="true"></div>
+<canvas id="shader" aria-hidden="true"></canvas>
 <div id="grain" aria-hidden="true"></div>
 <header class="top">
   <button class="brand" data-act="home" aria-label="Back to start">
@@ -43,10 +44,11 @@
 <footer class="foot">
   <div class="narrow">
     <p><b>Parody.</b> Not a voter guide. Not affiliated with <a href="https://sfpolcompass.wolfie.gg" target="_blank" rel="noopener">the original compass</a>, or with any campaign, party, union or guide named here. Your real ballot is at <a href="https://sfelections.org" target="_blank" rel="noopener">sfelections.org</a>.</p>
-    <p>Visuals powered by CSS. Politics powered by reading.</p>
+    <p>Visuals powered by 40 lines of GLSL and a vest. Politics powered by reading.</p>
   </div>
 </footer>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <script type="module" src="app.js"></script>
+<script type="module" src="shader.js"></script>
 </body>
 </html>
