@@ -74,7 +74,7 @@ export const ENT = [
   { n:"YIMBY Action", x:-.8, y:-.72, d:"Voter guide" },
   { n:"SFPOA", x:-.85, y:-.92, d:"Police union" },
   { n:"A chatbot", x:.05, y:-.85, d:"Thinks it\u2019s neutral" },
-  { n:"Garry Tan", x:-.3, y:-1.1, d:"Y Combinator, off the chart" },
+  { n:"Garry Tan", x:-1.1, y:-1.1, d:"Y Combinator, off the chart" },
 ];
 
 // None of these are on any real ballot. m: each slate's pick, Y, N or "." for no pick.
