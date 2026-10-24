@@ -118,7 +118,7 @@ function viewIntro(){
     </div>`;
   return `
   <section class="narrow hero">
-    <div class="kicker">A parody \u00b7 Nov 3, 2026</div>
+    <div class="kicker">Nov 3, 2026</div>
     <h1>Where do you land on the SF Political Compass For AI Morons?</h1>
     <p class="lede">Someone vibe-coded a San Francisco political compass. It decided the two big questions were zoning and cops. The two real questions are whether you care about people and whether you\u2019re a midwit. Answer ${TOTAL} questions and we\u2019ll put you on the map.</p>
     <div class="ctas">

@@ -1,4 +1,4 @@
-// Parody content. Placements and faction write-ups are our editorial read, which is the joke.
+// Placements and faction write-ups are our editorial read, which is the joke.
 
 // x: loves markets or whatever (-1) to cares about people (+1).
 // y: midwit dumb guys (-1) to smart guys (+1).

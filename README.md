@@ -1,6 +1,6 @@
 # SF Political Compass For AI Morons
 
-A parody of a vibe-coded San Francisco political compass. Static site, no build step, no dependencies.
+A vibe-coded San Francisco political compass, corrected. Static site, no build step, no dependencies.
 
 - `data.js`: questions, quadrants, chart placements, fake propositions
 - `app.js`: quiz flow, scoring, SVG compass, share link, PNG export
