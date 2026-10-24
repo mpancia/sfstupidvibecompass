@@ -5,7 +5,11 @@ const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const VERT = `attribute vec2 p; void main(){ gl_Position = vec4(p, 0., 1.); }`;
 const FRAG = `
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
 precision mediump float;
+#endif
 uniform vec2 uRes, uMouse, uClick;
 uniform float uT, uClickT;
 
@@ -36,7 +40,8 @@ void main(){
   // Click ripple.
   vec2 c = uClick * vec2(uRes.x / uRes.y, 1.);
   float age = uT - uClickT;
-  float ring = exp(-pow((distance(uv, c) - age * .5) * 9., 2.)) * exp(-age * 1.6);
+  float rd = (distance(uv, c) - age * .5) * 9.;
+  float ring = exp(-rd * rd) * exp(-age * 1.6);
   f += ring * .35;
 
   vec3 ink = vec3(.027, .031, .047);
@@ -44,7 +49,7 @@ void main(){
   vec3 purple = vec3(.71, .55, 1.);
   vec3 col = mix(ink, purple, smoothstep(.35, .8, w.x) * .5);
   col = mix(col, red, smoothstep(.45, .95, f) * .75);
-  col = mix(ink, col, .34 + ring * .6);
+  col = mix(ink, col, .6 + ring * .4);
   gl_FragColor = vec4(col, 1.);
 }`;
 
