@@ -76,7 +76,7 @@ export const ENT = [
   { n:"A chatbot", x:.05, y:-.85, d:"Thinks it\u2019s neutral" },
   { n:"Peter Thiel\u2019s reading list", x:-.55, y:.72, d:"Mostly his own" },
   { n:"A guy with a Substack", x:-.3, y:.4, d:"Smart, he\u2019ll tell you", l:true },
-  { n:"Guys who use Latin logical fallacies", x:.7, y:-1.1, d:"Ad hominem, post hoc, QED", l:true },
+  { n:"Guys who use Latin logical fallacies", x:0, y:-1.1, d:"Ad hominem, post hoc, QED" },
   { n:"Garry Tan", x:-1.1, y:-1.1, d:"Y Combinator, off the chart" },
 ];
 
