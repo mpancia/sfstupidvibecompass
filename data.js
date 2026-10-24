@@ -74,6 +74,8 @@ export const ENT = [
   { n:"YIMBY Action", x:-.8, y:-.72, d:"Voter guide" },
   { n:"SFPOA", x:-.85, y:-.92, d:"Police union" },
   { n:"A chatbot", x:.05, y:-.85, d:"Thinks it\u2019s neutral" },
+  { n:"Peter Thiel\u2019s reading list", x:-.55, y:.72, d:"Mostly his own" },
+  { n:"A guy with a Substack", x:-.3, y:.4, d:"Smart, he\u2019ll tell you", l:true },
   { n:"Garry Tan", x:-1.1, y:-1.1, d:"Y Combinator, off the chart" },
 ];
 
